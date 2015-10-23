@@ -18,10 +18,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FemasSystem.h">
+    <ClInclude Include="FemasContest.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="FemasSystemDlg.h">
+    <ClInclude Include="FemasContestDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
@@ -31,6 +31,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDialog.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="USTPFtdcMduserApi.h">
@@ -51,36 +54,60 @@
     <ClInclude Include="TraderHandler.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ResourcesAndTools.h">
+    <ClInclude Include="InsertLimitPage.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Settings.h">
+    <ClInclude Include="InsertMarketPage.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NetworkStatus.h">
+    <ClInclude Include="ConsoleDialog.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DialogManager.h">
+    <ClInclude Include="ContractsDialog.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="InstrumentHistoryData.h">
+    <ClInclude Include="PagePositionInfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MinuteMarketData.h">
+    <ClInclude Include="PageTradeInfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MarketDataBuffer.h">
+    <ClInclude Include="PageOrderInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minuteMarketData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lastMarketData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeStrategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeExcecutor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FemasSystem.cpp">
+    <ClCompile Include="FemasContest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FemasSystemDlg.cpp">
+    <ClCompile Include="FemasContestDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MdUserHandler.cpp">
@@ -89,40 +116,67 @@
     <ClCompile Include="TraderHandler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ResourcesAndTools.cpp">
+    <ClCompile Include="InsertLimitPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Settings.cpp">
+    <ClCompile Include="InsertMarketPage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NetworkStatus.cpp">
+    <ClCompile Include="PublicResource.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DialogManager.cpp">
+    <ClCompile Include="ConsoleDialog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="InstrumentHistoryData.cpp">
+    <ClCompile Include="ContractsDialog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MinuteMarketData.cpp">
+    <ClCompile Include="PagePositionInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MarketDataBuffer.cpp">
+    <ClCompile Include="PageTradeInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageOrderInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minuteMarketData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lastMarketData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeStrategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeExcecutor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategies.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="FemasSystem.rc">
+    <ResourceCompile Include="FemasContest.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\FemasSystem.rc2">
+    <None Include="res\FemasContest.rc2">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\FemasSystem.ico">
+    <Image Include="res\FemasContest.ico">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

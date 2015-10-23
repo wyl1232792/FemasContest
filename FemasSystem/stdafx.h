@@ -10,6 +10,8 @@
 #endif
 
 #include "targetver.h"
+#include "USTPFtdcMduserApi.h"
+#include "USTPFtdcTraderApi.h"
 
 #define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS      // 某些 CString 构造函数将是显式的
 
